@@ -1,6 +1,6 @@
 <configuration>
 	<property name="LOG_FILE" value="ALL_LOG" />
-	<property name="LOG_DIR" value="c:/mediation/client/logs/" />
+	<property name="LOG_DIR" value="src/main/resources/" />
 	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
     	<file>${LOG_DIR}/${LOG_FILE}.log</file> 
     	<encoder>

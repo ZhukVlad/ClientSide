@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Properties;
 
 public class ConfigUtil {
-	private static final String PROPERTIES_PATH = "c:/mediation/client/";
+	private static final String PROPERTIES_PATH = "src/main/resources/";
 	private static final String PROPERTIES_EXT = ".properties";
 	private static final String CANNOT_LOAD_DATA = "Cannot load data ";
 	
